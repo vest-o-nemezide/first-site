@@ -1,8 +1,14 @@
 :visited {
-    color: rgb(152, 146, 142);
+    color: rgb(128, 128, 126);
+    -webkit-text-stroke: 1px rgba(70, 70, 70, 0.093);
+    border-radius: 5px;
 }
 :link {
-    color: rgb(208, 159, 98);
+    color: rgb(208, 128, 59);
+    -webkit-text-stroke: 1px rgba(60, 60, 60, 0.093);
+    border-radius: 5px;
+
+
 }
 body {
     box-sizing: border-box;
@@ -83,3 +89,6 @@ body {
 clear {
     clear: left; /* Отмена обтекания */
    }
+.banner {
+    width: 800px;
+}
