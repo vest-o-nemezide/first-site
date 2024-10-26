@@ -1,0 +1,85 @@
+:visited {
+    color: rgb(152, 146, 142);
+}
+:link {
+    color: rgb(208, 159, 98);
+}
+body {
+    box-sizing: border-box;
+    background-color: bisque;
+}
+.header {
+    height: 30px;
+    background-color: rgb(77, 77, 77);
+}
+.menu.menu {
+    margin-top: 0px;
+    padding-top: 20px;
+    height: 10px;
+    background-color: rgb(77, 77, 77);
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+}
+.sitename {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.main {
+    margin-left: calc(15% + 55px);
+    padding-left: 100px;
+    background-color: rgb(204, 181, 154);
+    width: 65%;
+    min-height: 2000px;
+    height: max-content;
+}
+.footer {
+    margin-top: 5px;
+    height: max-content;
+    background-color: rgb(77, 77, 77);
+}
+.aside {
+    width: 15%;
+    float: left;
+    min-height: 2000px;
+    background-color: rgb(77, 77, 77);
+    margin-top: 0px;
+}
+.element {
+    margin-bottom: 5px;
+    padding: 25px;
+    border-radius: 5px;
+    word-break: keep-all;
+    max-height: max-content;
+}
+.pyt    {  
+    color: rgb(218, 218, 218);
+    padding-left: 0px;
+}
+.dsc {
+    width: 400px;
+}
+
+.z {
+    font: 25px "Fira Sans", sans-serif;
+    color: rgb(70, 60, 38);
+}
+.m {
+    font: 15px "Fira Sans", sans-serif;
+    color: rgb(240, 240, 240);
+}
+.c {
+    font: 15px "Fira Sans", sans-serif;
+    color: rgb(68, 58, 49);
+}
+.mb {
+    font: 15px "Fira Sans", sans-serif;
+    color: rgb(68, 58, 49);
+    background-color: rgb(205, 205, 205);
+    border: 0px;
+    float: left;
+    margin-right: 25px;
+    
+}
+clear {
+    clear: left; /* Отмена обтекания */
+   }
